@@ -5,8 +5,8 @@ public class Main {
         BmiService service = new BmiService();
         double height = 1.87; // Рост в метрах
         double weight = 98;  // Вес в кг
-        int BMI = (int) service.calculate(weight,height); // Приводим к целому типу
+        int BMI = (int) service.calculate(weight, height); // Приводим к целому типу
 
-        System.out.println("BMI="+BMI); // Печать результата в консоль
+        System.out.println("BMI=" + BMI); // Печать результата в консоль
     }
 }
